@@ -2,40 +2,37 @@
 # Install with: pip install -r requirements.txt
 
 # Core trading
-ccxt>=4.5.42              # Exchange connectivity (Binance, etc.)
-              
-numpy>=1.24.0                # Numerical computing
-ta>=0.11.0                   # Technical analysis indicators
+ccxt==4.5.42
+numpy==2.4.3
+ta==0.11.0
 
 # AI providers
-google-generativeai>=0.3.0   # Gemini AI (FREE!)
-anthropic>=0.18.0            # Claude AI (optional, paid)
+google-generativeai==0.8.6
+anthropic==0.84.0
 
 # Visualization
-plotly>=5.18.0               # Interactive charts
-streamlit>=1.30.0            # Dashboard UI
+plotly==6.6.0
+streamlit==1.55.0
 
 # Market data
-yfinance>=1.2.0             # Stock data (Yahoo Finance)
+yfinance==1.2.0
 
 # Notifications
-requests>=2.32.5          # HTTP requests
-twilio>=9.10.2            # SMS (optional)
+requests==2.32.5
+twilio==9.10.2
 
 # Utilities
-python-dotenv>=1.2.2     # Environment variables
-
+python-dotenv==1.2.2
 
 # Optional but recommended
-jupyter>=1.1.1              # For notebook analysis
-matplotlib>=3.10.8            # Additional plotting
-seaborn>=0.13.2            # Statistical visualization
-streamlit==1.55.0
+jupyter==1.1.1
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Reinforcement learning
 stable-baselines3==2.3.0
 torch==2.10.0
 gymnasium==0.29.1
 
+# Data handling
 pandas==2.2.1
-numpy==2.4.3
-matplotlib==3.10.8
-plotly==6.6.0
