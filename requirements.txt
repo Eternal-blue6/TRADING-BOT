@@ -1,0 +1,31 @@
+# Trading Bot - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core trading
+ccxt>=4.0.0                  # Exchange connectivity (Binance, etc.)
+pandas>=2.0.0                # Data manipulation
+numpy>=1.24.0                # Numerical computing
+ta>=0.11.0                   # Technical analysis indicators
+
+# AI providers
+google-generativeai>=0.3.0   # Gemini AI (FREE!)
+anthropic>=0.18.0            # Claude AI (optional, paid)
+
+# Visualization
+plotly>=5.18.0               # Interactive charts
+streamlit>=1.30.0            # Dashboard UI
+
+# Market data
+yfinance>=0.2.36             # Stock data (Yahoo Finance)
+
+# Notifications
+requests>=2.31.0             # HTTP requests
+twilio>=8.0.0                # SMS (optional)
+
+# Utilities
+python-dotenv>=1.0.0         # Environment variables
+
+# Optional but recommended
+jupyter>=1.0.0               # For notebook analysis
+matplotlib>=3.7.0            # Additional plotting
+seaborn>=0.12.0              # Statistical visualization

@@ -1,0 +1,13 @@
+
+
+# Gemini AI (FREE!)
+GEMINI_API_KEY=AIzaSyCCITN0UrVOsL39IFSG6sC3eZaXATdx7GI
+
+# Email notifications (optional)
+SMTP_FROM_EMAIL=your_email@gmail.com
+SMTP_APP_PASSWORD=your_app_password
+
+# Telegram (optional)
+TELEGRAM_BOT_TOKEN=your_bot_token
+TELEGRAM_CHAT_ID=@YYourChannel
+

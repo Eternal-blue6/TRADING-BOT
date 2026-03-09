@@ -1,0 +1,213 @@
+{
+  "timestamp": "2026-03-08T10:55:34.346164",
+  "crypto": {
+    "BTC/USDT": {
+      "records": 67717,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "ETH/USDT": {
+      "records": 13549,
+      "timeframes": [
+        "4h"
+      ]
+    },
+    "BNB/USDT": {
+      "records": 67717,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "SOL/USDT": {
+      "records": 12212,
+      "timeframes": [
+        "4h"
+      ]
+    },
+    "ADA/USDT": {
+      "records": 67719,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "AVAX/USDT": {
+      "records": 59775,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "MATIC/USDT": {
+      "records": 51391,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "DOT/USDT": {
+      "records": 60804,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "LINK/USDT": {
+      "records": 67719,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    }
+  },
+  "stocks": {
+    "PLTR": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "T": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "IBM": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "CSCO": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "AAPL": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "MSFT": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "GOOGL": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "AMZN": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "JPM": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "JNJ": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "XOM": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    }
+  },
+  "indices": {
+    "^GSPC": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "^IXIC": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "^DJI": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "^RUT": {
+      "records": 6333,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "^VIX": {
+      "records": 11221,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    }
+  },
+  "bonds": {
+    "AGG": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "TLT": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "LQD": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    },
+    "HYG": {
+      "records": 6334,
+      "timeframes": [
+        "1h",
+        "4h"
+      ]
+    }
+  },
+  "total_records": 600169
+}
