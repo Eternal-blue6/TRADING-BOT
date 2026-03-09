@@ -25,6 +25,7 @@ twilio>=9.10.2            # SMS (optional)
 # Utilities
 python-dotenv>=1.2.2     # Environment variables
 
+
 # Optional but recommended
 jupyter>=1.1.1              # For notebook analysis
 matplotlib>=3.10.8            # Additional plotting
