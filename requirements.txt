@@ -36,3 +36,4 @@ gymnasium==0.29.1
 pandas==2.2.1
 numpy==1.26.4
 matplotlib==3.8.3
+plotly==5.19.0
