@@ -29,12 +29,10 @@ python-dotenv>=1.0.0         # Environment variables
 jupyter>=1.0.0               # For notebook analysis
 matplotlib>=3.7.0            # Additional plotting
 seaborn>=0.12.0              # Statistical visualization
-
-
-streamlit
-stable-baselines3
-gymnasium
-pandas
-numpy
-matplotlib
-
+streamlit==1.32.0
+stable-baselines3==2.3.0
+torch==2.2.0
+gymnasium==0.29.1
+pandas==2.2.1
+numpy==1.26.4
+matplotlib==3.8.3
