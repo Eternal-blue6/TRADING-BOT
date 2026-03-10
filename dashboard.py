@@ -19,6 +19,7 @@ from plotly.subplots import make_subplots
 from datetime import datetime, timedelta
 import logging
 from stable_baselines3 import PPO
+model = PPO.load("final_model.zip")
 from pathlib import Path
 
 # Import our enhanced modules
