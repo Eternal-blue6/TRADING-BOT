@@ -1,38 +1,41 @@
-# Trading Bot - Dependencies
+# Trading Bot - Dependencies (Streamlit Cloud Compatible)
 # Install with: pip install -r requirements.txt
 
 # Core trading
-ccxt==4.5.42
+ccxt==4.4.0
 numpy==1.26.4
 ta==0.11.0
 
 # AI providers
-google-generativeai==0.8.6
-anthropic==0.84.0
+google-generativeai==0.8.0
+anthropic==0.40.0
 
 # Visualization
-plotly==6.6.0
-streamlit==1.55.0
+plotly==5.18.0
+streamlit==1.32.0
 
 # Market data
-yfinance==1.2.0
+yfinance==0.2.37
 
 # Notifications
-requests==2.32.5
-twilio==9.10.2
+requests==2.31.0
+twilio==9.0.4
 
 # Utilities
-python-dotenv==1.2.2
+python-dotenv==1.0.1
 
-# Optional but recommended
-jupyter==1.1.1
-matplotlib==3.10.8
+# Optional - Analysis
+matplotlib==3.8.3
 seaborn==0.13.2
 
 # Reinforcement learning
-stable-baselines3==2.3.0
-torch==2.10.0
+stable-baselines3==2.2.1
+torch==2.2.0
 gymnasium==0.29.1
 
 # Data handling
-pandas==2.2.1
+pandas==2.2.0
+
+# Additional for Streamlit
+protobuf==4.25.3
+altair<5
