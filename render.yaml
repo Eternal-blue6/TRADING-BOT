@@ -3,8 +3,8 @@ services:
     name: TRADING-BOT
     env: python
     plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run dashboard.py
+    buildCommand: "./build.sh"
+    startCommand: "streamlit run dashboard.py --server.port=$PORT --server.address=0.0.0.0"
     envVars:
       - key: PYTHON_VERSION
         value: 3.11
