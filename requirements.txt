@@ -10,7 +10,9 @@ streamlit==1.28.0
 plotly==5.17.0
 altair==4.2.2
 
-# Market data
+# Market datapip==24.0
+setuptools==68.2.2
+wheel==0.41.2
 ccxt==4.1.0
 yfinance==0.2.28
 
