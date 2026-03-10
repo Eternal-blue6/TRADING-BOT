@@ -4,15 +4,17 @@
 # Core data & computation
 numpy==1.24.3
 pandas==2.0.3
+pip==24.0
+setuptools==68.2.2
+wheel==0.41.2
+
 
 # Streamlit
 streamlit==1.28.0
 plotly==5.17.0
 altair==4.2.2
 
-# Market datapip==24.0
-setuptools==68.2.2
-wheel==0.41.2
+# Market data
 ccxt==4.1.0
 yfinance==0.2.28
 
