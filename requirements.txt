@@ -1,37 +1,50 @@
-# Streamlit Cloud - Minimal Dashboard Requirements
-# This WILL deploy! No heavy AI packages.
+# Trading Bot - Python 3.11 Compatible
+# ALL packages included - compatible versions!
 
-# Core
-numpy==1.26.4
-pandas==2.2.0
+# Core data & computation
+numpy==1.24.3
+pandas==2.0.3
 
 # Streamlit
-streamlit==1.32.0
-plotly==5.18.0
-altair<5
+streamlit==1.28.0
+plotly==5.17.0
+altair==4.2.2
 
 # Market data
-yfinance==0.2.37
-ccxt==4.4.0
+ccxt==4.1.0
+yfinance==0.2.28
 
 # Technical analysis
 ta==0.11.0
 
-# AI (lightweight)
-google-generativeai==0.8.0
+# AI providers
+google-generativeai==0.3.0
+anthropic==0.7.0
+
+# Deep Learning (compatible versions!)
+torch==2.0.1
+torchvision==0.15.2
+
+# Reinforcement Learning
+stable-baselines3==2.0.0
+gymnasium==0.28.1
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
 
 # Utilities
-python-dotenv==1.0.1
+python-dotenv==1.0.0
 requests==2.31.0
+pyyaml==6.0.1
 
-# Notifications (optional)
-twilio==9.0.4
+# Notifications
+twilio==8.10.0
 
-# Removed for Streamlit Cloud (too large):
-# torch - 2GB+
-# stable-baselines3 - needs torch
-# matplotlib - use plotly instead
-# anthropic - not needed for basic dashboard
-# jupyter - not needed on cloud
-# seaborn - not needed
-# gymnasium - only for training
+# Optional tools
+jupyter==1.0.0
+notebook==7.0.6
+ipykernel==6.25.0
+
+# Additional dependencies for stable-baselines3
+cloudpickle==2.2.1
