@@ -1,7 +1,7 @@
-# Trading Bot - Python 3.11 (CPU-only Torch)
-# Smaller torch version for faster deployment
+# Trading Bot - Python 3.11 (Lighter Version)
+# Use this if torch version fails (torch is very large)
 
-# Core
+# Core data & computation
 numpy==1.24.3
 pandas==2.0.3
 
@@ -13,19 +13,15 @@ altair==4.2.2
 # Market data
 ccxt==4.1.0
 yfinance==0.2.28
+
+# Technical analysis
 ta==0.11.0
 
 # AI providers
 google-generativeai==0.3.0
 anthropic==0.7.0
 
-# Deep Learning (CPU-only - smaller!)
---find-links https://download.pytorch.org/whl/torch_stable.html
-torch==2.0.1+cpu
-torchvision==0.15.2+cpu
-
-# RL
-stable-baselines3==2.0.0
+# Lightweight RL (without torch)
 gymnasium==0.28.1
 
 # Visualization
@@ -36,10 +32,9 @@ seaborn==0.12.2
 python-dotenv==1.0.0
 requests==2.31.0
 pyyaml==6.0.1
-twilio==8.10.0
-cloudpickle==2.2.1
 
-# Optional
-jupyter==1.0.0
-notebook==7.0.6
-ipykernel==6.25.0
+# Notifications
+twilio==8.10.0
+
+# Note: torch and stable-baselines3 removed to reduce size
+# Train AI locally, deploy dashboard only
